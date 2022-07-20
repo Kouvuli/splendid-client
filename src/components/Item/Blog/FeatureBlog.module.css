@@ -1,0 +1,82 @@
+.blog-post {
+    margin-bottom: 70px;
+}
+
+.blog-post img {
+    width: 100%; height: 300px;
+    border-radius:10px;
+    object-fit: cover;
+    margin-bottom: 34px;
+
+}
+
+.site-btn {
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 650;
+    min-width: 164px;
+    padding: 15px 35px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background: #e53637;
+    color: #161616;
+    line-height: 1;
+    color: #fff;
+
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.blog-post p{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+.blog-post .post-date {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 16px;
+    margin-bottom: 25px;
+    border-radius:5px;
+    color: #fff;
+    background: #e53637;
+}
+.blog-post h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.blog-post .post-metas {
+    margin-bottom: 30px;
+}
+
+.blog-post .post-metas .post-meta {
+    position: relative;
+    display: inline-block;
+    color: #8c8c8c;
+    font-size: 14px;
+    padding-right: 15px;
+    margin-right: 14px;
+    margin-bottom: 5px;
+}
+.blog-post .post-metas .post-meta:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+.blog-post .post-metas .post-meta:last-child::after {
+    display: none;
+}
+.blog-post .post-metas .post-meta:after {
+    position: absolute;
+    content: "|";
+    right: 0;
+    top: 0;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
